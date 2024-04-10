@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography"
 import Link from "@mui/material/Link"
 import Image from "next/image";
 
+
 export default function Header({sezioni, titolo}){
     return(
         <React.Fragment>
@@ -24,7 +25,7 @@ export default function Header({sezioni, titolo}){
                     src={"/img/logometatesto.png"}
                     sx={{flex:1}}
                     width={100}
-                    height={200}
+                    height={33}
                 />
                 </Typography>
 
