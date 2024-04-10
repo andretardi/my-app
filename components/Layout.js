@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
 import CssBaseline from "@mui/material/CssBaseline"
 import { createTheme, ThemeProvider } from "@mui/material/styles"
 import Container from '@mui/material/Container';
@@ -22,7 +20,7 @@ export default function Layout({children}){
         <ThemeProvider theme={theme}>
             <CssBaseline/>
             <Container maxWidth="lg">
-                <Header titolo="SFP DON BOSCO" sezioni={sezioni} />
+                <Header titolo="META QUEST" sezioni={sezioni} />
                 <Head>
                     <title>Componenti</title>
                 </Head>

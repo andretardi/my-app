@@ -5,6 +5,7 @@ import IconButton from "@mui/material/IconButton"
 import Searchicon from "@mui/icons-material/Search"
 import Typography from "@mui/material/Typography"
 import Link from "@mui/material/Link"
+import Image from "next/image";
 
 export default function Header({sezioni, titolo}){
     return(
@@ -19,8 +20,14 @@ export default function Header({sezioni, titolo}){
                     noWrap
                     sx={{flex:1}}
                 >
-                    {titolo}
+                     <Image
+                    src={"/img/logometatesto.png"}
+                    sx={{flex:1}}
+                    width={100}
+                    height={200}
+                />
                 </Typography>
+
                 <IconButton>
                     <Searchicon />
                 </IconButton>
