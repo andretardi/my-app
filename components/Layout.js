@@ -6,13 +6,11 @@ import Header from "@/components/Header"
 
 const theme = createTheme();
 const sezioni= [
-    {titolo: "Informatico", url: "/informatico"},
-    {titolo: "Energie", url: "/energie"},
-    {titolo: "Elettrico", url: "/elettrico"},
-    {titolo: "Meccanico", url: "/meccanico"},
-    {titolo: "Motoristico", url: "/motoristico"},
-    {titolo: "Carrozzeria", url: "/carrozzeria"},
-    {titolo: "Trasparenza", url: "/Trasparenza"}
+    {titolo: "Meta Quest 1", url: ""},
+    {titolo: "Meta Quest 2", url: ""},
+    {titolo: "Meta Quest 3", url: ""},
+    {titolo: "Cinturino Elite", url: ""},
+    {titolo: "Meta Quest Pro", url: ""},
 ]
 
 export default function Layout({children}){
