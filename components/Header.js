@@ -6,6 +6,7 @@ import Searchicon from "@mui/icons-material/Search"
 import Typography from "@mui/material/Typography"
 import Link from "@mui/material/Link"
 import Image from "next/image";
+import styles from "@/components/Header.module.css"
 
 
 export default function Header({sezioni, titolo}){
@@ -50,8 +51,14 @@ export default function Header({sezioni, titolo}){
                     variant="body"
                     href={sezione.url}
                     sx={{p: 1, flexShrink: 0}}
+                    className={styles.prova}
                 >
-                    {sezione.titolo}
+                    
+            <Button className={styles.prova} variant="outlined" disableElevation >
+            {sezione.titolo}
+            </Button>
+
+
                 </Link>
             ))}
 

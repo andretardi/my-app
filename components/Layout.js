@@ -4,6 +4,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles"
 import Container from '@mui/material/Container';
 import Header from "@/components/Header"
 
+
 const theme = createTheme();
 const sezioni= [
     {titolo: "Meta Quest 1", url: ""},
