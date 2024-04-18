@@ -13,10 +13,6 @@ export default function ImgMediaCard(props) {
         component="img"
         image={props.immagine}
       />
-      <CardContent>
-        
-      </CardContent>
-      
     </Card>
   );
 }
