@@ -8,11 +8,13 @@ import Typography from '@mui/material/Typography';
 
 export default function ImgMediaCard(props) {
   return (
+    <a href={props.link}>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         image={props.immagine}
       />
     </Card>
+    </a>
   );
 }

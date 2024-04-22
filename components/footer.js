@@ -4,6 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import styles from "@/components/footer.module.css"
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -38,7 +39,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function  BasicTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -46,7 +47,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box className={styles.provaa} sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="ASSISTENZA" {...a11yProps(0)} />
@@ -57,16 +58,17 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={0}>
         Se vi serve un' assistenza contattate il nostro staff via email o numero di telefono
         <br/>
-        metaassistenza@gmail.it
+        metaassistenza@gmail.org
         <br/>
         4678973628
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        I tempi di consegna variana dai 10 ai 15 anni in base alla distanza e quantità dell' acquisto.<br/>
+        I tempi di consegna variano dai 10 ai 15 anni in base alla distanza e quantità dell' acquisto.<br/>
+        ma garantiamo che prima o poi arrivera! <br/> certificate by Metastoronly.
         
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Item Three
+      I prodotti hanno sempre la scatola originale e siggillata, in oltre prima della consega facciamo un cek del prodotto e lo siggilliamo su protezioni adatte. 
       </CustomTabPanel>
     </Box>
   );

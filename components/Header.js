@@ -57,8 +57,7 @@ export default function Header({sezioni, titolo}){
             <Button className={styles.prova} variant="outlined" disableElevation >
             {sezione.titolo}
             </Button>
-
-
+            
                 </Link>
             ))}
 

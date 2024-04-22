@@ -10,8 +10,8 @@ const sezioni= [
     {titolo: "Meta Quest 1", url: ""},
     {titolo: "Meta Quest 2", url: ""},
     {titolo: "Meta Quest 3", url: ""},
-    {titolo: "Cinturino Elite", url: ""},
     {titolo: "Meta Quest Pro", url: ""},
+    {titolo: "Cinturino Elite", url: ""},
 ]
 
 export default function Layout({children}){
