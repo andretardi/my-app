@@ -21,31 +21,31 @@ export default function Home() {
         <Grid item lg={2} xs={12}>
           <MediaCard
             immagine="/img/card1.png"
-            link=""
+            link="/pag1"
           />
         </Grid>
         <Grid item lg={2} xs={12}>
           <MediaCard
             immagine="/img/card2.png"
-            link=""
+            link="/pag2"
           />
         </Grid>
         <Grid item lg={2} xs={12}>
           <MediaCard
             immagine="/img/card3.png"
-            link=""
+            link="/pag3"
           />
         </Grid>
         <Grid item lg={2} xs={12}>
           <MediaCard
             immagine="/img/card4.png"
-            link=""
+            link="/pag4"
           />
         </Grid>
         <Grid item lg={2} xs={12}>
           <MediaCard
             immagine="/img/card5.png"
-            link=""
+            link="/pag5"
           />
         </Grid>
         <Grid item lg={2} xs={12}>

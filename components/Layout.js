@@ -7,11 +7,12 @@ import Header from "@/components/Header"
 
 const theme = createTheme();
 const sezioni= [
-    {titolo: "Meta Quest 1", url: ""},
-    {titolo: "Meta Quest 2", url: ""},
-    {titolo: "Meta Quest 3", url: ""},
-    {titolo: "Meta Quest Pro", url: ""},
-    {titolo: "Cinturino Elite", url: ""},
+    {titolo: "Meta Quest 1", url: "http://localhost:3000/pag1"},
+    {titolo: "Meta Quest 2", url: "http://localhost:3000/pag2"},
+    {titolo: "Meta Quest 3", url: "http://localhost:3000/pag3"},
+    {titolo: "Meta Quest Pro", url: "http://localhost:3000/pag4"},
+    {titolo: "Cinturino Elite", url: "http://localhost:3000/pag5"},
+    {titolo: "hompage", url: "http://localhost:3000/"},
 ]
 
 export default function Layout({children}){
