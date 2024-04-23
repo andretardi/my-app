@@ -190,7 +190,9 @@ export default function Home() {
         </Grid>
       </Grid>
       <br/>
-      <Footer></Footer>
+      <Footer>
+        
+      </Footer>
       <br/>
     </Layout>
   );
